@@ -1,0 +1,314 @@
+/* Default styles */
+.cls1 {
+  background: transparent url("https://e1.pxfuel.com/desktop-wallpaper/894/303/desktop-wallpaper-anime-landscape-sky-city-light-sky-sea-ship-dark-vintage-aesthetic-laptop.jpg") no-repeat center center/cover;
+  padding: 50px;
+  border-radius: 80px;
+  /* display: block; */
+}
+
+.clsp1 {
+  color: rgb(240, 249, 239);
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.clsp2 {
+  color: yellow;
+  font-size: xxx-large;
+  text-align: center;
+  padding: 20px;
+}
+
+.cls2 {
+  margin: 100px;
+}
+
+.cls2 h1 {
+  padding-bottom: 50px;
+  padding-left: 50px;
+  font-size: xx-large;
+  color: rgb(178, 81, 11);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cls2 p {
+  font-size: large;
+  color: blue;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+  .clsp1, .clsp2 {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .clsp1, .clsp2 {
+    padding: 40px;
+  }
+
+  .cls1 {
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 400px) {
+  .cls2 p {
+    display: block;
+  }
+}
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item p {
+    margin-top: 10px;
+    display:flex;
+}
+.see :hover{
+    color: rgb(249, 18, 103);
+
+}
+
+
+
+
+
+.text-blk {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+  }
+  
+  .responsive-cell-block {
+    min-height: 75px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .outer-container {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  
+  .inner-container {
+    max-width: 1320px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+  }
+  
+  .heading-text {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .sub-heading-text {
+    line-height: 30px;
+    color: rgb(122, 122, 122);
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .position {
+    line-height: 24px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .card1 {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  .card1-img {
+    width: 100%;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+  }
+  
+  .card-container {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  
+  .headings-container {
+    padding-right: 10px;
+  }
+  
+  .team-members-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 1024px) {
+    .name {
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+    }
+  
+    .position {
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .card1-img {
+      width: 100%;
+      min-width: 100%;
+      height: 250px;
+      min-height: 230px;
+      max-height: 230px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .heading-text {
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .sub-heading-text {
+      text-align: center;
+      color: rgb(122, 122, 122);
+      max-width: 500px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .team-members-container {
+      margin-top: 30px;
+    }
+  
+    .card1 {
+      display: flex;
+    }
+  
+    .card1-img {
+      max-width: 300px;
+      min-width: 250px;
+    }
+  
+  }
+  
+  @media (max-width: 500px) {
+    .heading-text {
+      text-align: left;
+      line-height: 65px;
+    }
+  
+    .sub-heading-text {
+      color: rgb(122, 122, 122);
+      text-align: left;
+    }
+  
+    .name {
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+  
+    .position {
+      padding-bottom: 10px;
+    }
+  
+    .inner-container {
+      margin-top: 80px;
+      margin-bottom: 50px;
+    }
+  
+    .card1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .outer-container {
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+    }
+  
+    .card1-img {
+      width: 100%;
+    }
+  
+    .heading-text {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  
+    .card1-img {
+      min-width: auto;
+    }
+  }
+
+
+
+
+
+

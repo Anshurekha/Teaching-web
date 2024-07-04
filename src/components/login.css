@@ -1,0 +1,98 @@
+/* Default styles */
+.logn {
+    display: flex;
+    background-image: url('https://images3.alphacoders.com/133/1333028.png');
+    background-size: cover;
+    /* opacity: 0.3; */
+    height: 700px;
+  }
+  
+  .log {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    color: #150669;
+    border-radius: 20px;
+    margin-left: 350px;
+  }
+  
+  .log h2 {
+    color: rgb(205, 10, 78);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .frm {
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-right: 40px;
+    padding-top:50px;
+    background-color: rgba(104, 148, 124, 0.6);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    height: 60%;
+  }
+  
+  .frm1,
+  .frm3 {
+    margin-bottom: 50px;
+  }
+  
+  .frm2,
+  .frm4 {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .in1,
+  .in2 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 90px;
+    box-sizing: border-box;
+  }
+  
+  .in3 {
+    background-color: rgb(51, 244, 80);
+    color: #090909;
+    width: 20%;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .in3:hover {
+    background-color: rgb(255, 111, 185);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .logn {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .log {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .frm {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .in3 {
+      margin-left: 0;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
